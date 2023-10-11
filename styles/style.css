@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(106, 106, 233, 0.45);
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.calcu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 24rem;
+    width: 21rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-inline-size: 22rem;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    margin:auto;
+}
+
+.calcu-screen{
+    width: 20rem;
+    margin-top: 0%;
+    font-size: 3rem;
+    text-align: end;
+    background-color: rgb(32, 32, 32);
+    color: hsl(255, 100%, 100%); /* text color */
+    
+}
+button{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    display: flex;
+    height: 50px;
+}
+
+.calcu-keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    }
+
+.calcu-key{
+    background-color: rgb(59, 59, 59);
+    color: hsl(255, 100%, 100%);
+    border-radius: 5px;
+}
+
+.calcu-key-ope{
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+    color: hsl(255, 100%, 100%);
+
+
+}
+
+.calcu-key-ope1{
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+    color: hsl(255, 100%, 100%);
+
+
+}
+
+.calcu-key-enter{
+    border-radius: 5px;
+    background-color: rgb(118, 185, 237);
+    color: rgb(32, 32, 32);
+
+}
