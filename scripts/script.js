@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const equals = document.getElementById("equals")
   const pi = document.getElementById("pi")
   const inverse = document.getElementById("inverse")
+  const percent = document.getElementById("percent")
   
   const clear = document.getElementById("clear")
   const erase = document.getElementById("delete")
@@ -108,4 +109,14 @@ document.addEventListener('DOMContentLoaded', function() {
         operationDisplay.innerText = (operationDisplay.innerText * -1)
       })
    
+    //Function for percentage button
+      percent.addEventListener("click", function(){
+        if(lastInputType !== 'operator')
+            console.log("%")
+            operationDisplay.innerText = (operationDisplay.innerText/100)
+            lastInputType = null    
+    })
+
+
+    
 });
